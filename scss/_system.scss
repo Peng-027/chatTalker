@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+html {
+  scroll-behavior: auto !important;
+}
+// font
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,a{
+  color: #221E1F;
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+  position: relative;
+}
+
+// img
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+
+// ul
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+// flex
+.d-flex{
+  display: flex;
+}
+
+// margin
+.block-reg{
+  margin-top: 100px !important;
+  text-align: center;
+}
+
+// grid
+@mixin xxl() {
+  @media (max-width: 1441px) {
+    @content
+  }
+};
+
+@mixin xl() {
+  @media (max-width: 1201px) {
+    @content
+  }
+};
+
+@mixin lg() {
+  @media (max-width: 993px) {
+    @content
+  }
+};
+
+@mixin md() {
+  @media (max-width: 769px) {
+    @content
+  }
+};
+
+@mixin sm() {
+  @media (max-width: 576px) {
+    @content
+  }
+};
+
+
+// owl setting
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #FFD153;
+  width: 16px;
+  height: 10px;
+  border-radius: 50px;
+}
