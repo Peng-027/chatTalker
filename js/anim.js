@@ -51,4 +51,6 @@ $('.pay-btn').on('click',function(){
   $('.mon-payB').text(resultB);
   $('.sub-num').text(temp);
 
+  $(this).addClass('check-btn').siblings().removeClass('check-btn');
+
 })
