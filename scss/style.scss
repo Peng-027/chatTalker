@@ -155,6 +155,9 @@ body{
       @include md(){
         width: 27vw;
       }
+      @include sm() {
+        padding-top: 2px;
+      }
       @media (max-width: 376px) {
         width: 40vw;
       }

@@ -590,6 +590,12 @@ body {
   }
 }
 
+@media (max-width: 576px) {
+  .slider .header .logo {
+    padding-top: 2px;
+  }
+}
+
 @media (max-width: 376px) {
   .slider .header .logo {
     width: 40vw;
