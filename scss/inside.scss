@@ -96,7 +96,7 @@ body {
     @media (min-width: 576px) {
       display: none;
     }
-    @include bg-img();
+    @include bg-img(2px);
     left: 0;
     width: 100%;
   }
