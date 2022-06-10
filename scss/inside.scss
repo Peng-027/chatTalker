@@ -120,6 +120,10 @@ body {
         width: 27vw;
       }
 
+      @include sm(){
+        padding-bottom: 2px;
+      }
+
       @media (max-width: 376px) {
         width: 40vw;
       }
