@@ -339,7 +339,9 @@ body{
   justify-content: space-between;
 
   @include lg() {
-    flex-direction: column-reverse;
+    text-align: center;
+    margin-bottom: 24px;
+    padding-right: 0;
   }
 
   &-title {
@@ -363,11 +365,6 @@ body{
         @include text(16px, 24px);
         margin-bottom: 16px;
       }
-    }
-
-    @include lg() {
-      text-align: center;
-      margin-bottom: 24px;
     }
   }
 }
