@@ -344,6 +344,9 @@ body{
 
   &-title {
     padding-right: 5vw;
+    @include lg(){
+      padding-right: 0;
+    }
 
     h6 {
       @include title(16px);
