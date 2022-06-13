@@ -876,6 +876,14 @@ body {
   padding-right: 5vw;
 }
 
+@media (max-width: 993px) {
+  .introduce-title {
+    padding-right: 0;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+}
+
 .introduce-title h6 {
   font-weight: bold;
   font-size: 32px;
@@ -902,13 +910,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 16px;
-  }
-}
-
-@media (max-width: 993px) {
-  .introduce-title {
-    text-align: center;
-    margin-bottom: 24px;
   }
 }
 
